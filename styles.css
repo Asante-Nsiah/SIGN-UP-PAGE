@@ -1,0 +1,61 @@
+body{
+    background-color:rgb(236, 193, 193);
+}
+
+
+.text{
+    text-align: center;
+    padding:10px;
+    font-weight: 400px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.containerTwo{
+    background-color: rgb(247, 148, 243);
+    border: 1px rgb(77, 72, 72) solid;
+    border-radius: 10px;
+    margin:  100px auto;
+    display: inline-block;
+    width: auto;
+    position: absolute;
+    left: 35%;
+    
+    
+}
+.containerTwo input{
+    align-items: center;
+    justify-content: center;
+}
+.rom{
+    border-radius: 5px;
+    padding: 15px;
+    border: 1px grey solid;
+    margin: 10px;
+    width: 400px;
+}
+#submit{
+    border-radius: 5px;
+    padding: 20px;
+    border: 1px grey solid;
+    margin: 10px;
+    background-color: rgb(241, 24, 133);
+    display: inline-block;
+    width: 430px;
+    cursor: pointer;
+    font-weight: 400px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#error{
+    color: red;
+    text-align: center;
+    justify-content: center;
+    font-size: medium;
+    font-weight: 400px;
+    font-family: sans-serif;
+    font-style: italic;
+    
+}
